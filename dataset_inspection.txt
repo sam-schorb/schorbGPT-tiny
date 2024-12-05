@@ -1,0 +1,77 @@
+=== Dataset Inspection Report ===
+
+Dataset size: 245,254 samples
+Dataset format: <class 'datasets.arrow_dataset.Dataset'>
+Features: {'__index_level_0__': Value(dtype='int64', id=None), 'input_ids': Sequence(feature=Value(dtype='int32', id=None), length=-1, id=None), 'attention_mask': Sequence(feature=Value(dtype='int8', id=None), length=-1, id=None)}
+
+=== Sample Data (First 3 Examples) ===
+
+
+Example 1:
+Input IDs shape: 512
+Attention Mask shape: 512
+Input IDs type: <class 'list'>
+First 50 tokens decoded: Last week here at the university, a memorial march was held in honor of the civil rights legend, Bayard Rustin. If you do not recognize the name, you are not alone…many have not. This remarkable man gave his entire adult life...
+
+Detailed view of first 10 tokens:
+Position 0: ID=5956, Token='Last'
+Position 1: ID=1285, Token=' week'
+Position 2: ID=994, Token=' here'
+Position 3: ID=379, Token=' at'
+Position 4: ID=262, Token=' the'
+Position 5: ID=6403, Token=' university'
+Position 6: ID=11, Token=','
+Position 7: ID=257, Token=' a'
+Position 8: ID=17357, Token=' memorial'
+Position 9: ID=9960, Token=' march'
+
+Example 2:
+Input IDs shape: 512
+Attention Mask shape: 512
+Input IDs type: <class 'list'>
+First 50 tokens decoded: What do Psychologists Study?
+When most people think of psychology they usually only think of professionals who help people with mental issues.
+In reality, this is only one career path available to a psychologist, they actually study a broad range of behaviors....
+
+Detailed view of first 10 tokens:
+Position 0: ID=2061, Token='What'
+Position 1: ID=466, Token=' do'
+Position 2: ID=7562, Token=' Psych'
+Position 3: ID=9251, Token='ologists'
+Position 4: ID=12481, Token=' Study'
+Position 5: ID=30, Token='?'
+Position 6: ID=198, Token='
+'
+Position 7: ID=2215, Token='When'
+Position 8: ID=749, Token=' most'
+Position 9: ID=661, Token=' people'
+
+Example 3:
+Input IDs shape: 512
+Attention Mask shape: 512
+Input IDs type: <class 'list'>
+First 50 tokens decoded: The city, which was flooded to make way for a dam, still remains intact underwater for more than half a century.
+Wikipedia states, “At the foot of the Wu Shi mountain (Five Lion Mountain) lays an ancient city known as Shi...
+
+Detailed view of first 10 tokens:
+Position 0: ID=464, Token='The'
+Position 1: ID=1748, Token=' city'
+Position 2: ID=11, Token=','
+Position 3: ID=543, Token=' which'
+Position 4: ID=373, Token=' was'
+Position 5: ID=21050, Token=' flooded'
+Position 6: ID=284, Token=' to'
+Position 7: ID=787, Token=' make'
+Position 8: ID=835, Token=' way'
+Position 9: ID=329, Token=' for'
+
+=== Statistical Information ===
+Average sequence length: 512.00
+Max sequence length: 512
+Min sequence length: 512
+
+=== Tensor Information ===
+Batch structure: <class 'dict'>
+Key '__index_level_0__' shape: 4 examples
+Key 'input_ids' shape: 4 examples
+Key 'attention_mask' shape: 4 examples

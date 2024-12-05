@@ -1,0 +1,66 @@
+2024-12-05 10:03:14,195 - INFO - [Rank {local_rank}] Process 0/8 initialized on cuda:0
+2024-12-05 10:03:14,195 - INFO - [Rank {local_rank}] Total GPUs: 8
+2024-12-05 10:03:14,195 - INFO - [Rank {local_rank}] Per-GPU batch size: 32
+2024-12-05 10:03:14,195 - INFO - [Rank {local_rank}] Global batch size: 256
+2024-12-05 10:03:14,195 - INFO - [Rank {local_rank}] CPU cores available: 128
+2024-12-05 10:03:14,196 - INFO - [Rank {local_rank}] RAM available: 1574.9GB
+2024-12-05 10:03:14,196 - INFO - [Rank {local_rank}] Loading tokenized datasets...
+2024-12-05 10:03:14,212 - INFO - [Rank {local_rank}] Training samples: 245,254
+2024-12-05 10:03:14,212 - INFO - [Rank {local_rank}] Validation samples: 27,251
+2024-12-05 10:03:14,213 - INFO - [Rank {local_rank}] Initializing model...
+2024-12-05 10:03:18,748 - INFO - [Rank {local_rank}] Model parameters: 124,439,808 total, 124,439,808 trainable
+2024-12-05 10:03:32,844 - INFO - [Rank {local_rank}] Training config:
+2024-12-05 10:03:32,845 - INFO - [Rank {local_rank}] - Epochs: 1
+2024-12-05 10:03:32,845 - INFO - [Rank {local_rank}] - Steps per epoch: 959
+2024-12-05 10:03:32,845 - INFO - [Rank {local_rank}] - Total steps: 959
+2024-12-05 10:03:32,845 - INFO - [Rank {local_rank}] - Learning rate: 5e-5
+2024-12-05 10:03:32,845 - INFO - [Rank {local_rank}] - Warmup steps: 500
+2024-12-05 10:03:32,845 - INFO - [Rank {local_rank}] Starting epoch 1/1
+2024-12-05 10:03:33,851 - ERROR - [Rank {local_rank}] Error during training step 0: 'list' object has no attribute 'to'
+2024-12-05 10:18:38,948 - INFO - [Rank {local_rank}] Process 0/8 initialized on cuda:0
+2024-12-05 10:18:38,949 - INFO - [Rank {local_rank}] Total GPUs: 8
+2024-12-05 10:18:38,949 - INFO - [Rank {local_rank}] Per-GPU batch size: 32
+2024-12-05 10:18:38,949 - INFO - [Rank {local_rank}] Global batch size: 256
+2024-12-05 10:18:38,949 - INFO - [Rank {local_rank}] CPU cores available: 128
+2024-12-05 10:18:38,949 - INFO - [Rank {local_rank}] RAM available: 1574.9GB
+2024-12-05 10:18:38,949 - INFO - [Rank {local_rank}] Loading tokenized datasets...
+2024-12-05 10:18:38,965 - INFO - [Rank {local_rank}] Training samples: 245,254
+2024-12-05 10:18:38,965 - INFO - [Rank {local_rank}] Validation samples: 27,251
+2024-12-05 10:18:38,966 - INFO - [Rank {local_rank}] Initializing model...
+2024-12-05 10:18:40,018 - INFO - [Rank {local_rank}] Model parameters: 124,439,808 total, 124,439,808 trainable
+2024-12-05 10:18:49,448 - INFO - [Rank {local_rank}] Training config:
+2024-12-05 10:18:49,448 - INFO - [Rank {local_rank}] - Epochs: 1
+2024-12-05 10:18:49,448 - INFO - [Rank {local_rank}] - Steps per epoch: 959
+2024-12-05 10:18:49,448 - INFO - [Rank {local_rank}] - Total steps: 959
+2024-12-05 10:18:49,448 - INFO - [Rank {local_rank}] - Learning rate: 5e-5
+2024-12-05 10:18:49,448 - INFO - [Rank {local_rank}] - Warmup steps: 500
+2024-12-05 10:18:49,448 - INFO - [Rank {local_rank}] Starting epoch 1/1
+2024-12-05 10:18:49,666 - INFO - [Rank {local_rank}] First batch shapes:
+2024-12-05 10:18:49,666 - INFO - [Rank {local_rank}] input_ids: torch.Size([32, 512])
+2024-12-05 10:18:49,666 - INFO - [Rank {local_rank}] attention_mask: torch.Size([32, 512])
+2024-12-05 10:18:49,666 - INFO - [Rank {local_rank}] input_ids device: cuda:0
+2024-12-05 10:18:49,667 - INFO - [Rank {local_rank}] First sequence tokens: The Santa Cruz Valley was originally settled by Spaniards as part of a system of missiones and visitas under Padre Kino in the early 1700s. In 1744 and 1747 the Spanish king approved advancement of the military frontier to the G...
+2024-12-05 10:18:51,247 - INFO - [Rank {local_rank}] GPU 0 Memory: 36960.00MB / 81559.00MB (45.3%)
+2024-12-05 10:18:51,247 - INFO - [Rank {local_rank}] Step: 0/959 | Loss: 4.1672 | LR: 1.00e-07 | Speed: 165.6 samples/sec
+2024-12-05 10:19:27,917 - INFO - [Rank {local_rank}] GPU 0 Memory: 40098.00MB / 81559.00MB (49.2%)
+2024-12-05 10:19:27,917 - INFO - [Rank {local_rank}] Step: 100/959 | Loss: 3.3416 | LR: 1.01e-05 | Speed: 675.6 samples/sec
+2024-12-05 10:20:04,668 - INFO - [Rank {local_rank}] GPU 0 Memory: 40098.00MB / 81559.00MB (49.2%)
+2024-12-05 10:20:04,668 - INFO - [Rank {local_rank}] Step: 200/959 | Loss: 3.0962 | LR: 2.01e-05 | Speed: 686.6 samples/sec
+2024-12-05 10:20:41,391 - INFO - [Rank {local_rank}] GPU 0 Memory: 40098.00MB / 81559.00MB (49.2%)
+2024-12-05 10:20:41,391 - INFO - [Rank {local_rank}] Step: 300/959 | Loss: 2.9904 | LR: 3.01e-05 | Speed: 689.7 samples/sec
+2024-12-05 10:21:18,152 - INFO - [Rank {local_rank}] GPU 0 Memory: 40098.00MB / 81559.00MB (49.2%)
+2024-12-05 10:21:18,153 - INFO - [Rank {local_rank}] Step: 400/959 | Loss: 2.9318 | LR: 4.01e-05 | Speed: 691.6 samples/sec
+2024-12-05 10:21:55,016 - INFO - [Rank {local_rank}] GPU 0 Memory: 40098.00MB / 81559.00MB (49.2%)
+2024-12-05 10:21:55,016 - INFO - [Rank {local_rank}] Step: 500/959 | Loss: 2.9029 | LR: 4.99e-05 | Speed: 692.6 samples/sec
+2024-12-05 10:22:31,776 - INFO - [Rank {local_rank}] GPU 0 Memory: 40098.00MB / 81559.00MB (49.2%)
+2024-12-05 10:22:31,776 - INFO - [Rank {local_rank}] Step: 600/959 | Loss: 2.8749 | LR: 3.90e-05 | Speed: 692.9 samples/sec
+2024-12-05 10:23:08,484 - INFO - [Rank {local_rank}] GPU 0 Memory: 40098.00MB / 81559.00MB (49.2%)
+2024-12-05 10:23:08,484 - INFO - [Rank {local_rank}] Step: 700/959 | Loss: 2.8567 | LR: 2.81e-05 | Speed: 693.4 samples/sec
+2024-12-05 10:23:45,229 - INFO - [Rank {local_rank}] GPU 0 Memory: 40098.00MB / 81559.00MB (49.2%)
+2024-12-05 10:23:45,230 - INFO - [Rank {local_rank}] Step: 800/959 | Loss: 2.8416 | LR: 1.72e-05 | Speed: 693.9 samples/sec
+2024-12-05 10:24:22,044 - INFO - [Rank {local_rank}] GPU 0 Memory: 40098.00MB / 81559.00MB (49.2%)
+2024-12-05 10:24:22,045 - INFO - [Rank {local_rank}] Step: 900/959 | Loss: 2.8307 | LR: 6.32e-06 | Speed: 694.2 samples/sec
+2024-12-05 10:24:56,078 - INFO - [Rank {local_rank}] Epoch 1 completed in 0:05:53.663331. Train loss: 2.8262 | Valid loss: 2.6323
+2024-12-05 10:24:56,799 - INFO - [Rank {local_rank}] Model saved to model_epoch_1
+2024-12-05 10:24:56,800 - INFO - [Rank {local_rank}] Training completed in 0:06:26.733097
+2024-12-05 10:24:56,800 - INFO - [Rank {local_rank}] Best loss achieved: 2.6323

@@ -1,0 +1,5 @@
+# First install if needed
+pip install huggingface_hub
+
+# Then download
+huggingface-cli download HuggingFaceFW/fineweb-edu --repo-type dataset --local-dir ./10BT

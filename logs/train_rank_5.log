@@ -1,0 +1,13 @@
+2024-12-05 10:03:15,082 - INFO - [Rank {local_rank}] Process 5/8 initialized on cuda:5
+2024-12-05 10:03:15,082 - INFO - [Rank {local_rank}] Loading tokenized datasets...
+2024-12-05 10:03:15,098 - INFO - [Rank {local_rank}] Training samples: 245,254
+2024-12-05 10:03:15,099 - INFO - [Rank {local_rank}] Validation samples: 27,251
+2024-12-05 10:03:15,100 - INFO - [Rank {local_rank}] Initializing model...
+2024-12-05 10:03:32,844 - INFO - [Rank {local_rank}] Starting epoch 1/1
+2024-12-05 10:03:35,009 - ERROR - [Rank {local_rank}] Error during training step 0: 'list' object has no attribute 'to'
+2024-12-05 10:18:39,646 - INFO - [Rank {local_rank}] Process 5/8 initialized on cuda:5
+2024-12-05 10:18:39,646 - INFO - [Rank {local_rank}] Loading tokenized datasets...
+2024-12-05 10:18:39,664 - INFO - [Rank {local_rank}] Training samples: 245,254
+2024-12-05 10:18:39,664 - INFO - [Rank {local_rank}] Validation samples: 27,251
+2024-12-05 10:18:39,665 - INFO - [Rank {local_rank}] Initializing model...
+2024-12-05 10:18:49,449 - INFO - [Rank {local_rank}] Starting epoch 1/1
